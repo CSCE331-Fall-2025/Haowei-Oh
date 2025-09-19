@@ -2,6 +2,27 @@ body {
     background-color: #303030;
     color: white;
 }
+
+/*
+Even when I update stuff here, it doesn't reflect on the html
+Even when I copy the background from light.css
+It works on my personal html. Not on the site though
+*/
+
+.headerPadding {
+    margin-top: 32px; 
+    color: maroon;
+}
+
+.quoteSetting{
+    font-size: 12pt;
+    color: gold;
+}
+
+.rowBorder{
+    border: 1px black;
+}
+
 a:link {
     color: pink;
 }
@@ -14,3 +35,4 @@ a:hover {
 a:active {
     color: lightskyblue;
 }
+

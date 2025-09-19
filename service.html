@@ -8,11 +8,48 @@
     <script src="functions.js"></script>
 </head>
     <body>
-        <button type="button" onclick="goToMain()" align="center">Home Page!</button>
-        <button type="button" onclick="goToAbout()" align="center">About Me</button>
-        <button type="button" onclick="goToProjects()" align="center">My Projects</button>
-        <button type="button" onclick="goToAIPage()" align="center">AI Application</button>
-        
+        <table>
+        <tr>
+            <td>
+            <button type="button" onclick="toggle()">Toggle Style</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <button type="button" onclick="goToMain()" >Home Page!</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+                <button type="button" onclick="goToAbout()">About Me</button>
+            
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <button type="button" onclick="goToProjects()">My Projects</button>
+            </td>
+        </tr>
+        <tr>
+            <td>
+            <button type="button" onclick="goToAIPage()" >AI Application</button>
+            </td>
+        </tr>
+        </table>
+        <table align="center">
+            <tr class="rowBorder">
+                <p align="center">Imagine 2 vertical rows with borders</p>
+                <p align="center">dark.css is not updating on site, unsure why</p>
+                <td>
+                    <p align="center">Volunteered at Festival of Bands at our local stadium for 3 years</p>
+                </td>
+            </tr>
+            <tr class="rowBorder">
+                <td>
+                    <p align="center">Willing to help where I can when I have time (longer desc eventually)</p>
+                </td>
+            </tr>
+        </table>
     </body>
     
 </html>

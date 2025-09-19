@@ -1,4 +1,12 @@
 body {
-    background-color: white;
+    background-color: white; /* temporarily set to dark */
     color: #303030;
+    background-image: url(cornfield-1791007.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.headerPadding {
+    margin-top: 32px;
 }
